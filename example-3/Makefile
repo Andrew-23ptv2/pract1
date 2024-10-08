@@ -1,5 +1,3 @@
-# Усложненный make-file.  Введены переменные для параметров компиляции и исполняемых файлов
-
 .PHONY: all debug release clean
 
 RELEASE_FLAGS = -O2 -Wall -DNDEBUG
